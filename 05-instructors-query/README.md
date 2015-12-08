@@ -12,7 +12,7 @@ For this exercise, you'll work with query strings to greet a people.
 - Create a route `/instructors`. This route should display all the objects in `data` in the file `server.js`.
 - Add and commit.
 
-- When a user visits the route `/instructors?given-name=rosa`, the object with Rosa should be displayed.
+- When a user visits the route `/instructors?givenname=rosa`, the object with Rosa should be displayed.
 - Add and commit.
 
 - When a user visits the route `/instructors?surname=desai`, the object with Zubair should be displayed.
