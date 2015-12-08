@@ -5,7 +5,7 @@ This repository contains a sequence of exercises that will improve your understa
 - Install [nodemon](https://www.npmjs.com/package/nodemon) (`npm install -g nodemon`) and use it to start your server (`nodemon server.js`).
 
 ## Instructions
-When you start to work on the exercises, begin with [01-hello-param](01-hello-params/README.md) and move down until you reach [05-instructors-query](05-instructors-query/README.md).
+When you start to work on the exercises, begin with [01-hello-param](01-hello-param/README.md) and move down until you reach [05-instructors-query](05-instructors-query/README.md).
 
 Inside each directory of an exercise, you'll need to follow the steps inside [start-guide](./start-guide.md).
 
