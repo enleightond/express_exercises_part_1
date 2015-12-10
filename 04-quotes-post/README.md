@@ -24,6 +24,6 @@ For this exercise, you'll use a form to create a new quote.
 - Add and commit.
 
 ### Step 5 of 5
-- Add a route called `/quotes` with the `GET` method. This route should display all quotes that are stored in `data`.
+- Add a route called [`/quotes`](http://localhost:8000/quotes) with the `GET` method. This route should display all quotes that are stored in `data`.
 - Visit [`/quotes`](http://localhost:8000/quotes) and confirm that all posts are being displayed.
 - Add and commit.
