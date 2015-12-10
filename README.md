@@ -17,7 +17,7 @@ __Some of the exercises will include some of the files mentioned in [start-guide
 - [03-link-params](03-link-params/README.md)
 
 ## Working with Posted Form Data
-- [04-quotes-post](04-quotes-post/README.md)
+- [04-quotes-body](04-quotes-body/README.md)
 
 ## Working with Query String
 - [05-instructors-query](05-instructors-query/README.md)

@@ -1,4 +1,4 @@
-## quotes-post
+## quotes-body
 For this exercise, you'll use a form to create a new quote.
 
 - Follow the instructions in [start-guide](../start-guide.md)
