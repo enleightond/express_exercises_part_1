@@ -13,6 +13,6 @@ For this exercise, you'll use a parameter to link the following web pages:
 
 - On the route `/verse-3`, serve the verse "And they'll just continue singing it on forever because...", [the third image](http://media-cache-ak0.pinimg.com/236x/4d/61/6c/4d616c5f67a37d1b7db7acc79a3dcf03.jpg), and a link to `/verse-4`.
 
-- On the route `/verse-3`, serve the verse "...some people started singing it without knowing what it was.", [the third image](http://media-cache-ak0.pinimg.com/236x/75/a1/d4/75a1d4cba1954c1abee9b4bd85d21de9.jpg), and a link to `/verse-1`.
+- On the route `/verse-4`, serve the verse "...some people started singing it without knowing what it was.", [the third image](http://media-cache-ak0.pinimg.com/236x/75/a1/d4/75a1d4cba1954c1abee9b4bd85d21de9.jpg), and a link to `/verse-1`.
 
 - Refactor your code to have one route--not four.
