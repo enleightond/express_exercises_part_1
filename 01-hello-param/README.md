@@ -1,24 +1,26 @@
 ## hello-param
-For this exercise, you'll greet a person (or thing) using a parameter.
+For this exercise, you'll greet a person (or thing) with a __hard-coded route__ and then refactor to use a parameter.
 
 ## Set-up
 - Follow the instructions in [start-guide](../start-guide.md)
 
 ## Instructions
-- Add code in `server.js` that will display the phrase `Hello, Express!`
+### Step 1 of 4
+- In `server.js`, add a __hard-coded__ route to [`/express`](http://localhost:8000/express). When a user visits this route, the response body should include the greeting `Hello, Express!`
 - Start your server (`nodemon server.js`).
-- Visit [`localhost:8000/`](http://localhost:8000/express) and confirm that `Hello, Express!` is displayed in the response body. __Notice that the word Express is capitalized__.
+- Visit [`/express`](http://localhost:8000/express); then confirm that `Hello, Express!` is being displayed.
 - Add and commit.
 
-- Add a route with your first name (`/cho`). When a user visits this route, the response body should display the the phrase "Hello, Cho!"
-- Kill your server (`control + c`).
-- Start your server (`nodemon server.js`).
-- Visit [`localhost:8000/`](http://localhost:8000/cho) and confirm that the correct phrase is displayed. __Notice that the name is capitalized__.
+### Step 2 of 4
+- Add a __hard-coded__ route with your first name, such as (`/cho`). When a user visits this route, the response body should display a greeting with your name, such as `Hello, Cho!` __Notice that the name is capitalized in the response, but the name in the route isn't capitalized__.
+- Visit the URL with your first name; then confirm that the correct greeting is being displayed.
 - Add and commit.
 
-- Add a route with the name of your favorite celebrity (`tom-hanks`).
-- Visit [`localhost:8000/tom-hanks`](http://localhost:8000/tom-hanks) and confirm that the phrase is displayed. __Notice that the hyphen is removed and each word is capitalized__.
+### Step 3 of 4
+- Add a __hard-coded__ route with your favorite celebrity's first name, a hypen, and last name, such as (`tom-hanks`). When a user visits this route, the response body should display a greeting with the celebrity's name, such as `Hello, Tom Hanks!` __Notice that the hyphen is removed and each word is capitalized__.
+- Visit the URL with your favority celebrity's name; then confirm that the correct greeting is being displayed.
 - Add and commit.
 
-- Refactor your code to remove the three hard-coded routes (`/express`, `/your-name`, and `/celebrity-name`) and use in its place one route with a parameter.
+### Step 4 of 4
+- Refactor your code to replace the three hard-coded routes (`/express`, `/firstname`, and `/celebrity-name`) with one route that uses a parameter.
 - Add and commit.
