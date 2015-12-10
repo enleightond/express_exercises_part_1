@@ -11,19 +11,19 @@ For this exercise, you'll work with more than one parameter to create a simlple 
 - Add and commit.
 
 ### Step 2 of 6
-- Create the route `/add/9/3`. When a user visits that route, they should see `12`.
+- Create the route [`/add/9/3`](http://localhost:8000/add/9/3`). When a user visits that route, they should see `12`.
 - Add and commit.
 
 ### Step 3 of 6
-- Create the route `/sub/9/3``. When a user visits that route, they should see `6`.
+- Create the route [`/subtract/9/3`](http://localhost:8000/subtract/9/3`). When a user visits that route, they should see `6`.
 - Add and commit.
 
 ### Step 4 of 6
-- Create the route `/mult/9/3`. When a user visits that route, they should see `27`.
+- Create the route [`/multiply/9/3`](http://localhost:8000/multiply/9/3`). When a user visits that route, they should see `27`.
 - Add and commit.
 
 ### Step 5 of 6
-- Create the route `/div/9/3`. When a user visits that route, they should see `3`.
+- Create the route [`/divide/9/3`](http://localhost:8000/divide/9/3`). When a user visits that route, they should see `3`.
 - Add and commit.
 
 ### Step 6 of 6
