@@ -29,7 +29,3 @@ For this exercise, you'll work with more than one parameter to create a simlple 
 ### Step 6 of 6
 - Refactor your code to have two routes: one for the homepage (`/`) and one for the arithmetic operations.
 - Add and commit
-
-## Bonus
-- Create the route `/add/1.2/1.2`. When a user visits that route, they should be displayed the value `2.4`.
-- Add and commit.
