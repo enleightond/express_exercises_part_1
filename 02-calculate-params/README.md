@@ -1,10 +1,12 @@
 # express-calculator
-For this exercise, you'll work with more than one parameter to create a simlple calculator.
+For this exercise, you'll work with more than one parameter to create a simlple calculator. 
 
 ## Set-up
 - Follow the instructions in [start-guide](../start-guide.md)
 
 ## Instructions
+__From steps 2 to 6, you'll generate an error if you pass a number to `res.send()`, such as `res.send(12)`__. In that scenario, Express will mistaken the number for a status code. To fix this problem, you'll need to pass all numbers as strings, such as `res.send("12")`.
+
 ### Step 1 of 6
 - Add code in `server.js` that will display the phrase "Hello, Calculator!"
 - Visit [`localhost:8000/`](http://localhost:8000/) and confirm that the phrase is displayed in the response body.
