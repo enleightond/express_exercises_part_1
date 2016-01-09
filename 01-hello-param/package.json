@@ -1,0 +1,14 @@
+{
+  "name": "01-hello-param",
+  "version": "1.0.0",
+  "description": "For this exercise, you'll greet a person (or thing) with a __hard-coded route__ and then refactor to use a parameter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
