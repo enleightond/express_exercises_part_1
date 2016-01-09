@@ -2,8 +2,12 @@ var express = require('express');
 
 var app = express();
 
-app.get('/', function(req, res) {
-    // write your response here.
+app.get('/express', function(req, res) {
+    res.send("Hello, Express!" )
+});
+
+app.get('/david', function(req, res) {
+    res.send("Hello, David"  )
 });
 
 app.listen(8000, function() {
